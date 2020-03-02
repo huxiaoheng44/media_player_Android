@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MusicPlayActivity">
+    <TextView
+        android:id="@+id/music_play_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="未知歌曲"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/default_cover"/>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/music_play_set"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:src="@drawable/play_sequence"
+            android:layout_marginRight="45dp"/>
+        <ImageView
+            android:id="@+id/previous_song"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="上一首"
+            android:src="@drawable/previous_button"
+            android:layout_marginRight="20dp" />
+
+        <ImageView
+            android:id="@+id/pause_button"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pause_button"/>
+        <ImageView
+            android:id="@+id/next_song"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="下一首"
+            android:src="@drawable/next_button"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:id="@+id/music_play_back"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_back_button"
+            android:layout_marginLeft="45dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
