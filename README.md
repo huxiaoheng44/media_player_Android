@@ -6,5 +6,14 @@
 支持随机播放，顺序播放，单曲循环等等功能
 
 
+Basic Functions:
+
+The main function is to read all audio files locally from the mobile phone and display them with a listview  
+
+Click one of the items to enter the music playing interface  
+
+Support random play, sequential play, single loop and other functions  
+
+
   
   
